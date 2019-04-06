@@ -1,0 +1,104 @@
+1.깃허브 접속
+create repository(우상단)
+ssh로 생성 > 생성시 setting > ssh and GPG keys 에서 키 발급.
+
+발급시 다음참고해서 넣기.
+echo "# EZEN_02" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:yunjaehyeck/EZEN_02.git
+git push -u origin master
+
+
+2.git다운로드 및 디폴트로 설치.
+https://www.git-scm.com/download
+
+
+
+
+
+------------------
+2번째 프로젝트
+
+BeautifulSoup --> 아나콘다에서 설치.
+
+activate 
+
+pip  install ~
+
+C:/Users/ezen/PycharmProjects/
+
+
+
+eval "$(ssh-agent)"
+
+
+-------------------
+
+ezen@DESKTOP-OL57D07 MINGW64 ~/PycharmProjects
+$ ls -al ~/.ssh
+ls: cannot access '/c/Users/ezen/.ssh': No such file or directory
+
+ezen@DESKTOP-OL57D07 MINGW64 ~/PycharmProjects
+$ ssh-keygen -t rsa -C "hangaram10@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/ezen/.ssh/id_rsa):
+Created directory '/c/Users/ezen/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/ezen/.ssh/id_rsa.
+Your public key has been saved in /c/Users/ezen/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:LrQuM2Q5pyIMoHVxGltMfcatG9meVEvWE/JcsmUKIPQ hangaram10@gmail.com
+The key's randomart image is:
++---[RSA 2048]----+
+|     o.oo..o...o=|
+|    o + .o+ ..BBo|
+|     B   oE+ +o+.|
+|. . +     + o .  |
+|o. . .. S  = .   |
+|o   =..o  . o    |
+|o  o +o .        |
+|... =. .         |
+| . . +.          |
++----[SHA256]-----+
+
+ezen@DESKTOP-OL57D07 MINGW64 ~/PycharmProjects
+
+Agent pid 22756
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDA7meD6wr7cmjSq8dqRFCLSCSN2hnog66p1baLcp8Idhe8vwkrmmZpyRwKcKi+Ks11Tx5qId14mL0KZRvxhgOgACgI7Dz/jdGvUe65lD91xbKr7430HPDISFw4ylxXwK1nooEYXkt+mvhce04UvDL0LELgGwNWWXLcwNpPfCHYvZPQsrh9Eg2xRIdD6GI6Hh6G1vdDRLOULOW7dtkjyrFsek38k8D72tdEi3vGajil8CaLaSYWEGcP9M7XJRgh9FreWWADOPZDGXNhw0QFHV0a0/RA2nFFa6bf3n5iCqgwbjQGmzcfRY9mXO18LYNShlBcNpaXO1gbN8TB+822k0bT hangaram10@gmail.com
+
+
+
+
+git init
+git add -A
+git commit -m "titanic"
+git remote add origin git@github.com:
+git push -u origin master
+
+
+git config --global user.email "hangaram10@gmail.com"
+git config --global user.name "hangaram10"
+
+
+git init
+git add -A
+git commit -m "타이타닉"
+git remote add origin git@github.com:yunjaehyeck/EZEN33.git
+git push -u origin master
+
+
+
+parkjungkwan
+
+
+한번 업로드한 뒤에 다시 하는 경우
+
+git add -A
+git commit -m "folum ended"
+git push -u origin master
+
+
