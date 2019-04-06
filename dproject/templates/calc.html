@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/calc" method="POST">
+  첫번째 수:<br>
+  <input type="text" name="weight" >
+  <br>
+  두번째 수:<br>
+  <input type="text" name="age" >
+  <br>
+  <select name="opcode">
+  <option  value="plus">+</option>
+  <option  value="minus">-</option>
+  <option  value="multi">*</option>
+  <option  value="divid">/</option>
+</select>
+    <br>
+  <input type="submit" value="Submit">
+</form>
+{%  if result %}
+<p>결과 : {{result}}</p>
+{% endif %}
+</body>
+</html>
+
+
+
+

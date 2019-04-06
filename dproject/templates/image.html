@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/blood" method="POST">
+  파일명:<br>
+  <input type="text" name="fname" >
+  <br>
+  컬러:<br>
+  <input type="text" name="color" >
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+{%  if result %}
+<img src=" {{result}}"/>
+{% endif %}
+</body>
+</html>
+</html>

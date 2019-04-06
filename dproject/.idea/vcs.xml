@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.ssh" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blood" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cabbage" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/calc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/image_handling" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/member" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/stock" vcs="Git" />
+  </component>
+</project>
