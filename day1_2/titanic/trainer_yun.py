@@ -267,7 +267,7 @@ bins = [-1, 0, 5, 12, 18, 24, 35, 60, np.inf]   # 넌파이(np)
 labels = ['Unknown', 'Baby', 'Child', 'Teenager', 'Student', 'Young Adult', 'Adult', 'Senior']
 
 train['AgeGroup'] = pd.cut(train['Age'], bins, labels=labels) # 데이터를 잘라내라.
-train['AgeGroup'] = pd.cut(test['Age'], bins, labels=labels)
+test['AgeGroup'] = pd.cut(test['Age'], bins, labels=labels)
 
 out4 = train.head()
 # print(out4)
@@ -287,8 +287,8 @@ out5 = train.head()
 # print(out5)
 
 # Fare 처리
-train['FareBand'] = pd.qcut(train['Fare'], 4, lables={1, 2, 3, 4})  # 4등분 하라.
-test['FareBand'] = pd.qcut(test['Fare'], 4, lables={1, 2, 3, 4})
+train['FareBand'] = pd.qcut(train['Fare'], 4, labels={1, 2, 3, 4})  # 4등분 하라.
+test['FareBand'] = pd.qcut(test['Fare'], 4, labels={1, 2, 3, 4})
 
 train = train.drop(['Fare'], axis = 1)
 test = test.drop(['Fare'], axis = 1 )
