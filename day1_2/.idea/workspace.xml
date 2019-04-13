@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29dd1870-9ff9-4740-94e1-9e303ef3d0fb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/titanic/trainer_yun.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/trainer_yun.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3/rnn_basic/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3/rnn_basic/mnist_accuracy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3/seoul_cctv/crime_map_yun.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3/tf_basic/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3/tf_basic/gradient_descent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3/tf_basic/gradient_descent_yun.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3/tf_basic/liner_regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3/tf_basic/tensor_basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day3/수업3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../day3/수업3.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,14 +35,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/titanic/trainer_yun.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="262" column="10" lean-forward="true" selection-start-line="262" selection-start-column="10" selection-end-line="262" selection-end-column="10" />
+              <caret line="262" column="10" selection-start-line="262" selection-start-column="10" selection-end-line="262" selection-end-column="10" />
               <folding>
                 <element signature="e#147#198#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/calc/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -74,8 +98,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="129" />
-    <option name="y" value="17" />
+    <option name="x" value="-308" />
+    <option name="y" value="281" />
     <option name="width" value="1651" />
     <option name="height" value="1083" />
   </component>
@@ -89,6 +113,20 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="day1_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day1_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day1_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day1_2" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day1_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day1_2" type="462c0819:PsiDirectoryNode" />
+              <item name="calc" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="day1_2" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -256,10 +294,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="129" y="17" width="1651" height="1083" extended-state="0" />
+    <frame x="-308" y="281" width="1651" height="1083" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12005028" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11965282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -296,13 +334,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calc/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -399,10 +430,20 @@
     <entry file="file://$PROJECT_DIR$/titanic/trainer_yun.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="262" column="10" lean-forward="true" selection-start-line="262" selection-start-column="10" selection-end-line="262" selection-end-column="10" />
+          <caret line="262" column="10" selection-start-line="262" selection-start-column="10" selection-end-line="262" selection-end-column="10" />
           <folding>
             <element signature="e#147#198#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calc/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
