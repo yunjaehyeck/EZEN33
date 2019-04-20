@@ -4,8 +4,8 @@ from nltk.stem import WordNetLemmatizer
 import glob
 import os
 import numpy as np
-ham = '../data/0007.1999-12-14.farmer.ham.txt'
-spam = '../data/0058.2003-12-21.GP.spam.txt'
+ham = '../ham/0007.1999-12-14.farmer.ham.txt'
+spam = '../spam/0058.2003-12-21.GP.spam.txt'
 with open(ham, 'r') as infile:
     ham_sample = infile.read()
 print(ham_sample)
@@ -15,12 +15,12 @@ with open(spam, 'r') as infile:
 print(spam_sample)
 cv = CountVectorizer(stop_words="english", max_features=500)
 emails, labels = [], []
-file_path = '../data/'
+file_path = '../ham/'
 for filename in glob.glob(os.path.join(file_path, '*.txt')):
     with open(filename, 'r', encoding= 'ISO-8859-1') as infile:
         emails.append(infile.read())
         labels.append(0)
-file_path = './spam/'
+file_path = '../spam/'
 for filename in glob.glob(os.path.join(file_path, '*.txt')):
     with open(filename, 'r', encoding= 'ISO-8859-1') as infile:
         emails.append(infile.read())
