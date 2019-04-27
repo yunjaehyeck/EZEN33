@@ -1,0 +1,15 @@
+맴버변수 vs 지역변수
+
+_train : 언더바로 시작하는 변수 ---> pirvate (지역변수)를 의미
+
+get/set parameter  :  파이썬의 문법은 " @ " 를 사용
+ -     @property  # Get 역활
+ -     @context.setter  # Set 역활
+
+@staticmethod   # self를 사용하지 않을 경우 이 함수를 써야 한다. .. .생략시 --> 다이나믹
+
+
+
+인덴트(들여쓰기) 께졌을 경우. 단축키
+- 수정할 부분 선택 후.
+- ctrl + alt + i
