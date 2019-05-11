@@ -1,0 +1,69 @@
+git init
+git add -A
+git commit  -m ""
+git push -u origin master
+
+1. 수업전에 플라스크 설치하기 ( 장고의 경량화 버전 )
+ - activate tenso1
+ - pip install flask
+
+2.PyQt5 로 별도 설치하여 화면 만들도록 하는게 일반적.
+(어플리케이션 UI)
+
+3.프라스크의 app.py의 기본 패턴
+
+##########################################
+
+from flask import Flask
+from flask import Flask, render_template
+
+# 플라스크를 이용하기 위한 기본 템플릿 코드
+app = Flask(__name__)
+
+@app.route('/')  # 데코레이터
+def index():
+    return 'Hello Flask !!'
+
+if __name__ == '__main__':
+    app.run()
+
+#########################################
+
+###
+#코딩 순서
+###
+
+1. view단 생성 --> html
+2. app.py
+   - html의 href에 연결된 정보 확인
+   - @app.route('/move/home')  추가.
+   - return 값으로 화면명(html)을 추가
+
+
+
+##########
+데이터의 save와 restore
+https://cafe.naver.com/cariro?iframe_url=/MyCafeIntro.nhn%3Fclubid=25842228
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
