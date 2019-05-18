@@ -4,7 +4,7 @@ import tensorflow as tf
 class CalcController:
 
     def __init__(self, num1, num2, opcode):
-        self._calc = CalcModel()  # 모델 생성자.
+        # self._calc = CalcModel()  # 모델 생성자.  --> 이미 model.py에서 모델 file을 생성했으므로. 위 폴더의 파일들이 모델이 되어야 한다.
         self._num1 = num1
         self._num2 = num2
         self._opcode = opcode

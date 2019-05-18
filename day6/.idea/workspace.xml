@@ -2,26 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96583cac-b9d7-4cf2-ac34-5f618031cf06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/6주차수업" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai_calc/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai_calc/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai_calc/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blood/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blood/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blood/data/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blood/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/member/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/member/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/member/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/ui_calc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/ai_calc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blood.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/ui_calc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitcoin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitcoin/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cabbage/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cabbage/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cabbage/data/price_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cabbage/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradient_descent/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradient_descent/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradient_descent/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iris/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iris/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iris/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kospi/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kospi/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/iris.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/iris_real.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock_ticker/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock_ticker/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bitcoin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/cabbage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/gradient_descent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/iris.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/kospi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/stock_ticker.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6주차수업" beforeDir="false" afterPath="$PROJECT_DIR$/6주차수업" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai_calc/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ai_calc/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai_calc/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/ai_calc/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai_calc/saved_div/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai_calc/saved_div/model-1000.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai_calc/saved_div/model-1000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai_calc/saved_div/model-1000.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai_calc/saved_mul/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai_calc/saved_mul/model-1000.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai_calc/saved_mul/model-1000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai_calc/saved_mul/model-1000.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai_calc/saved_sub/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai_calc/saved_sub/model-1000.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai_calc/saved_sub/model-1000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai_calc/saved_sub/model-1000.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blood.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blood.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,10 +56,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/6주차수업">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1484">
+              <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+            <state relative-caret-position="539">
+              <caret line="168" column="21" selection-start-line="168" selection-start-column="21" selection-end-line="168" selection-end-column="21" />
               <folding>
                 <element signature="e#48#106#0" expanded="true" />
               </folding>
@@ -43,41 +76,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blood/model.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stock_ticker/controller.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="560">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#0#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blood/controller.py">
+        <entry file="file://$PROJECT_DIR$/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+            <state relative-caret-position="572">
+              <caret line="70" column="26" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/bitcoin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blood/data/data.txt">
+        <entry file="file://$PROJECT_DIR$/templates/stock_ticker.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/blood.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            <state relative-caret-position="224">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -107,6 +140,17 @@
       <find>placeholder</find>
       <find>CalcController</find>
       <find>move</find>
+      <find>app 호출 성공</find>
+      <find>CalcC</find>
+      <find>blood</find>
+      <find>render_template</find>
+      <find>result</find>
+      <find>w1</find>
+      <find>prediction</find>
+      <find>cabbage</find>
+      <find>def kospi</find>
+      <find>005930</find>
+      <find>KospiController</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -122,35 +166,44 @@
         <option value="$PROJECT_DIR$/member/controller.py" />
         <option value="$PROJECT_DIR$/static/css/ui_calc.css" />
         <option value="$PROJECT_DIR$/templates/ui_calc.html" />
-        <option value="$PROJECT_DIR$/templates/home.html" />
-        <option value="$PROJECT_DIR$/6주차수업" />
         <option value="$PROJECT_DIR$/templates/ai_calc.html" />
-        <option value="$PROJECT_DIR$/ai_calc/controller.py" />
-        <option value="$PROJECT_DIR$/templates/blood.html" />
-        <option value="$PROJECT_DIR$/ai_calc/__init__.py" />
         <option value="$PROJECT_DIR$/ai_calc/model.py" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/blood/controller.py" />
         <option value="$PROJECT_DIR$/blood/data/data.txt" />
+        <option value="$PROJECT_DIR$/ai_calc/controller.py" />
         <option value="$PROJECT_DIR$/blood/model.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/day6.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/templates/gd.html" />
+        <option value="$PROJECT_DIR$/templates/blood.html" />
+        <option value="$PROJECT_DIR$/gradient_descent/model.py" />
+        <option value="$PROJECT_DIR$/gradient_descent/__init__.py" />
+        <option value="$PROJECT_DIR$/gradient_descent/controller.py" />
+        <option value="$PROJECT_DIR$/templates/iris.html" />
+        <option value="$PROJECT_DIR$/6주차수업" />
+        <option value="$PROJECT_DIR$/iris/__init__.py" />
+        <option value="$PROJECT_DIR$/iris/model.py" />
+        <option value="$PROJECT_DIR$/iris/controller.py" />
+        <option value="$PROJECT_DIR$/ai_calc/__init__.py" />
+        <option value="$PROJECT_DIR$/cabbage/controll.py" />
+        <option value="$PROJECT_DIR$/cabbage/__init__.py" />
+        <option value="$PROJECT_DIR$/cabbage/model.py" />
+        <option value="$PROJECT_DIR$/templates/cabbage.html" />
+        <option value="$PROJECT_DIR$/cabbage/controller.py" />
+        <option value="$PROJECT_DIR$/kospi/model.py" />
+        <option value="$PROJECT_DIR$/templates/kospi.html" />
+        <option value="$PROJECT_DIR$/kospi/controller.py" />
+        <option value="$PROJECT_DIR$/templates/stock_ticker.html" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/stock_ticker/controller.py" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/templates/bitcoin.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-5" />
-    <option name="y" value="8" />
-    <option name="width" value="1838" />
-    <option name="height" value="986" />
+    <option name="x" value="4" />
+    <option name="y" value="21" />
+    <option name="width" value="1795" />
+    <option name="height" value="994" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -160,7 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,12 +223,33 @@
             <path>
               <item name="day6" type="b2602c69:ProjectViewProjectNode" />
               <item name="day6" type="462c0819:PsiDirectoryNode" />
-              <item name="ai_calc" type="462c0819:PsiDirectoryNode" />
+              <item name="bitcoin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="day6" type="b2602c69:ProjectViewProjectNode" />
               <item name="day6" type="462c0819:PsiDirectoryNode" />
-              <item name="blood" type="462c0819:PsiDirectoryNode" />
+              <item name="cabbage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day6" type="462c0819:PsiDirectoryNode" />
+              <item name="kospi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day6" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day6" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day6" type="462c0819:PsiDirectoryNode" />
+              <item name="stock_ticker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="day6" type="b2602c69:ProjectViewProjectNode" />
@@ -187,15 +260,21 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ezen\PycharmProjects\day6\bitcoin" />
+      <recent name="C:\Users\ezen\PycharmProjects\day6\cabbage\data" />
+      <recent name="C:\Users\ezen\PycharmProjects\day6\static\img" />
       <recent name="C:\Users\ezen\PycharmProjects\day6\static\css" />
     </key>
   </component>
@@ -233,6 +312,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="__init__ (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="day6" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cabbage" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cabbage/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="day6" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -241,11 +341,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/member" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/iris" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/member/__init__.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/iris/__init__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -275,9 +375,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="model (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="day6" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cabbage" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cabbage/model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.app" />
+        <item itemvalue="Python.__init__ (2)" />
+        <item itemvalue="Python.model (1)" />
         <item itemvalue="Python.__init__ (1)" />
         <item itemvalue="Python.__init__" />
       </list>
@@ -297,17 +420,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="8" width="1838" height="986" extended-state="0" />
+    <frame x="4" y="21" width="1795" height="994" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13498312" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13948126" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Python Console" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" visible="true" weight="0.12206573" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.12093023" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -316,7 +439,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Terminal" order="3" weight="0.16738996" />
-      <window_info anchor="right" id="Run" order="4" visible="true" weight="0.23059617" />
+      <window_info anchor="right" id="Run" order="4" visible="true" weight="0.29855907" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14879107" />
@@ -339,13 +462,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/ui_calc.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -362,13 +478,6 @@
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6주차수업">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
@@ -406,13 +515,6 @@
     <entry file="file://$PROJECT_DIR$/ai_calc/saved_add/checkpoint">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/ai_calc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/tenso1/lib/site-packages/tensorflow/python/framework/ops.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -427,13 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/tenso1/lib/site-packages/tensorflow/python/framework/meta_graph.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -441,95 +536,299 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ai_calc/model.py">
+    <entry file="file://$PROJECT_DIR$/blood/controller.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="252">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blood/data/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ai_calc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/tenso1/lib/site-packages/jinja2/parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/tenso1/lib/site-packages/jinja2/environment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="779" selection-start-line="779" selection-end-line="779" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/tenso1/lib/site-packages/flask/templating.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blood/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ai_calc/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/tenso1/lib/site-packages/tensorflow/python/training/saver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="1434" selection-start-line="1434" selection-end-line="1434" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/tenso1/lib/site-packages/flask/_compat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/tenso1/lib/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="1798" selection-start-line="1798" selection-end-line="1798" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ai_calc/controller.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
-          <folding>
-            <element signature="e#48#106#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blood.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        <state relative-caret-position="56">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blood/controller.py">
+    <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/tenso1/lib/site-packages/tensorflow/python/training/saver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        <state relative-caret-position="278">
+          <caret line="685" column="6" selection-start-line="685" selection-start-column="6" selection-end-line="685" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blood/data/data.txt">
+    <entry file="file://$PROJECT_DIR$/gradient_descent/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blood/model.py">
+    <entry file="file://$PROJECT_DIR$/gradient_descent/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="784">
+          <caret line="28" column="31" lean-forward="true" selection-start-line="7" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradient_descent/saved_model/model.ckpt.meta">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradient_descent/saved_model/model.ckpt.index">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradient_descent/saved_model/model.ckpt.data-00000-of-00001">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradient_descent/saved_model/checkpoint">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradient_descent/controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="50" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/gradient_descent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6주차수업">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1484">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iris/saved_model/iris_model.h5">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai_calc/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai_calc/controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai_calc/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iris/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iris/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/tenso1/lib/site-packages/flask/_compat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cabbage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iris/controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cabbage/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cabbage/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="778">
+          <caret line="30" column="48" lean-forward="true" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kospi/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/tenso1/lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="2291" selection-start-line="2291" selection-end-line="2291" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/iris.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="26" selection-start-line="26" selection-end-line="28" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cabbage/controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/kospi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kospi/controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/stock_ticker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="168" column="21" selection-start-line="168" selection-start-column="21" selection-end-line="168" selection-end-column="21" />
+          <folding>
+            <element signature="e#48#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock_ticker/controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="70" column="26" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bitcoin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

@@ -2,26 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea64d35c-22d2-49ca-8930-d5e5edf47f8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../day6/6주차수업" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day6/ai_calc/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day6/ai_calc/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day6/ai_calc/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day6/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day6/blood/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day6/blood/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day6/blood/data/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day6/blood/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day6/member/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day6/member/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day6/member/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day6/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day6/static/css/ui_calc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day6/templates/ai_calc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day6/templates/blood.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day6/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day6/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day6/templates/ui_calc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6/bitcoin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6/bitcoin/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6/cabbage/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6/cabbage/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6/cabbage/data/price_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6/cabbage/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6/gradient_descent/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6/gradient_descent/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6/gradient_descent/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6/iris/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6/iris/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6/iris/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6/kospi/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6/kospi/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6/static/img/iris.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6/static/img/iris_real.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6/stock_ticker/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6/stock_ticker/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6/templates/bitcoin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6/templates/cabbage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6/templates/gradient_descent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6/templates/iris.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6/templates/kospi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6/templates/stock_ticker.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day6/6주차수업" beforeDir="false" afterPath="$PROJECT_DIR$/../day6/6주차수업" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day6/ai_calc/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day6/ai_calc/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day6/ai_calc/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day6/ai_calc/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day6/ai_calc/saved_div/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day6/ai_calc/saved_div/model-1000.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day6/ai_calc/saved_div/model-1000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day6/ai_calc/saved_div/model-1000.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day6/ai_calc/saved_mul/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day6/ai_calc/saved_mul/model-1000.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day6/ai_calc/saved_mul/model-1000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day6/ai_calc/saved_mul/model-1000.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day6/ai_calc/saved_sub/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day6/ai_calc/saved_sub/model-1000.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day6/ai_calc/saved_sub/model-1000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day6/ai_calc/saved_sub/model-1000.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day6/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day6/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day6/templates/blood.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day6/templates/blood.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day6/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day6/templates/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,10 +143,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="205" />
-    <option name="y" value="135" />
+    <option name="x" value="166" />
+    <option name="y" value="33" />
     <option name="width" value="1673" />
-    <option name="height" value="1069" />
+    <option name="height" value="967" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -152,6 +176,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../day6" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -301,7 +326,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="205" y="135" width="1673" height="1069" extended-state="1" />
+    <frame x="166" y="33" width="1673" height="967" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11804281" />

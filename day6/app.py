@@ -2,6 +2,12 @@
 from flask import Flask, render_template, request, jsonify
 from member.controller import MemberController
 from ai_calc.controller import CalcController
+from blood.model import BloodModel #컨트롤러에 만들지 않아 바로 model호출 해 버림. (정식x)
+from gradient_descent.controller import GradientDescentController
+from iris.controller import IrisController
+from cabbage.controller import CabbageController
+from kospi.controller import KospiController
+from stock_ticker.controller import StockTickerController
 import re  # 정규식 라이브러리
 
 
@@ -10,7 +16,8 @@ app = Flask(__name__)   # app는 플라스크로 정의 함.
 
 @app.route('/')  # 데코레이터
 def index():
-    return render_template('index.html')
+    # return render_template('index.html')    # 로그인 예시 화면 (1)
+    return render_template('home.html')  # 홈화면 예시 (2)
 
 @app.route('/login', methods=['POST'])  # index 의 from 의 submit 폼 이룸.---> 포스트 전송
 def login():
@@ -29,7 +36,7 @@ def login():
 
 @app.route('/move/<path>')  # < > 은 변수 처리 된다(1). # // a 테그의 url 을 삽입 : /move/ui_calc
 def move_ui_calc(path):  # < > 은 변수 처리 된다(2).
-    print("app 호출 성공")
+    print("/move/<app> 호출 성공")
     return render_template('{}.html'.format(path))  # view  파일명.  # < > 은 변수 처리 된다.(3)
 
 """
@@ -101,12 +108,71 @@ def ai_calc():
 @app.route('/blood', methods=['POST'])
 def blood():
 
+    print('-------------------- blood(1) ---------------------------')
+
     weight = request.form['weight']
     age = request.form['age']
 
     print("weight:{}, age:{}".format(weight, age))
 
-    return render_template('home.html')
+    # 모델 호출
+    # 컨트롤러가 해야 하는 부분.  ---> 학습 시킴
+    model = BloodModel('./blood/data/data.text')  # 정답을 알려주고 시작하는 <지도학습> 임... "결과는 파일로"
+    raw_data = model.create_raw_data()
+    render_params = {}   # 결과값 받는곳
+    value = model.create_model(raw_data,weight,age)
+    render_params['result'] = value  # html의 resut 에 값 할당
+
+    # render_template : 플라스크에서 html의 화면단에 표현
+    # render_params : 플라스크에서 html에 보내 값.
+
+    print('-------------------- blood(2) ---------------------------')
+
+    return render_template('home.html', **render_params)  # ** 모든 파람값을 화면단에 전송
+
+@app.route('/gradient_descent', methods=['GET','POST'])
+def gradient_descent():
+    ctrl = GradientDescentController()
+    name = ctrl.service_model()
+
+    return render_template('gradient_descent.html', name = name)
+
+@app.route('/iris', methods=['GET','POST'])
+def iris():
+    ctrl = IrisController()
+    result = ctrl.service_model()
+
+    return render_template('iris.html', result = result)
+
+@app.route('/cabbage', methods=['GET','POST'])
+def cabbage():
+    ctrl = CabbageController()
+    result = ctrl.service_model()
+    render_params = {}
+    render_params['result'] = result
+
+    return render_template('cabbage.html', **render_params)
+
+@app.route('/kospi', methods=['GET','POST'])
+def kospi():
+
+    ctrl = KospiController()
+    kospi = ctrl.service()
+    render_params = {}
+    render_params['result'] = kospi
+
+    return render_template('kospi.html', **render_params)
+
+@app.route('/stock_ticker', methods=['GET','POST'])
+def stock_ticker():
+    ctrl = StockTickerController()
+    price = ctrl.service()
+    render_params = {}
+    render_params['result'] = price
+
+    return render_template('stock_ticker.html', **render_params)
+
+
 
 ###############
 # 메인
